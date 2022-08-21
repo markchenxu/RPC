@@ -1,6 +1,5 @@
 package rpc.tomstillcoding.com.core.codec;
 
-import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 

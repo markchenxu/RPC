@@ -1,7 +1,6 @@
 package server;
 
 import rpc.tomstillcoding.com.IDL.Hello.HelloService;
-import rpc.tomstillcoding.com.IDL.Ping.PingService;
 import rpc.tomstillcoding.com.core.server.RpcServer;
 
 public class TestServer {

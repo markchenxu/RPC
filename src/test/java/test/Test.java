@@ -8,7 +8,7 @@ public class Test
     {
 
 
-        Employee e = null;
+        Employee e;
         try
         {
             FileInputStream fileIn = new FileInputStream("/Users/thomas/Desktop/test.txt");

@@ -57,8 +57,7 @@ public class RpcClientProxy implements InvocationHandler {
             ByteArrayInputStream bais = new ByteArrayInputStream(body);
             ObjectInputStream ois = new ObjectInputStream(bais);
             RpcResponseBody rpcResponseBody = (RpcResponseBody) ois.readObject();
-            Object retObject = rpcResponseBody.getRetObject();
-            return retObject;
+            return rpcResponseBody.getRetObject();
         }
         return null;
     }

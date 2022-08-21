@@ -19,9 +19,7 @@ public class RpcClientTransfer {
             objectOutputStream.writeObject(rpcRequest);
             objectOutputStream.flush();
 
-            RpcResponse rpcResponse = (RpcResponse) objectInputStream.readObject();
-
-            return rpcResponse;
+            return (RpcResponse) objectInputStream.readObject();
 
         } catch (IOException | ClassNotFoundException e) {
             e.printStackTrace();
